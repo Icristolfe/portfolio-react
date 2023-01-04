@@ -6,7 +6,7 @@ export const Container = styled.div`
     height: 100vh;
     background: rgb(0,0,0);
     background: url("${Background}");
-    background-size: cover;
+    background-size: contain;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -28,7 +28,7 @@ export const Header = styled.div`
 export const ContainerItems = styled.div `
     width: 375px;
     height: 450px;
-    background: rgba(0, 69, 201, 0.25);
+    background: rgba(0, 0, 0, 0.10);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6.1px);
