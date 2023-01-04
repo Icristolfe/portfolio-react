@@ -6,7 +6,7 @@ export const Container = styled.div`
     height: 100vh;
     background: rgb(0,0,0);
     background: url("${Background}");
-    background-size: contain;
+    background-size: cover;
     display: flex;
     align-items: center;
     flex-direction: column;
