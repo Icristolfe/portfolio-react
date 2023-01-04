@@ -1,14 +1,15 @@
 import styled from "styled-components";
+import Background from '../../assets/background.gif'
 
 export const Container = styled.div`
     width: 100%;
     height: 100vh;
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 3%, rgba(5,23,66,1) 24%);
+    background: url("${Background}");
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
 `
 
 export const Header = styled.div`
