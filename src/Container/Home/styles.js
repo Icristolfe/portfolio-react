@@ -11,6 +11,7 @@ export const Container = styled.div`
     align-items: center;
     flex-direction: column;
     gap: 50px;
+
 `
 
 export const Header = styled.div`
@@ -33,6 +34,12 @@ export const ContainerItems = styled.div `
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6.1px);
     -webkit-backdrop-filter: blur(6.1px);
+    line-height: 25px ;
+
+    @media only screen and (min-device-width: 768px) {  
+        width: 90%;
+        height: 80%;
+     }
 `
 
 export const Home = styled.div`
@@ -64,6 +71,10 @@ export const Home = styled.div`
         height: 60px;
         border-radius: 50%;
     }
+    @media only screen and (min-device-width: 768px) {  
+        padding:  30px 150px;
+        gap: 20px;
+     }
 `
 
 
@@ -94,3 +105,4 @@ export const CategoryButton = styled.button`
             }
             
 `
+

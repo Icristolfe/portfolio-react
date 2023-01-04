@@ -57,6 +57,10 @@ export const ContainerItems = styled.div `
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6.1px);
     -webkit-backdrop-filter: blur(6.1px);
+    @media only screen and (min-device-width: 768px) {  
+        width: 90%;
+        height: 80%;
+     }
 `
 
 export const Projetos = styled.div`
@@ -71,6 +75,10 @@ export const ContainerProjects = styled.div`
     align-items: center;
     justify-content: center;
     gap: 150px;
+
+    @media only screen and (min-device-width: 768px) {  
+      font-size: 20px;
+     }
 
     img{
         width: 250px;

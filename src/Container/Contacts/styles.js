@@ -34,6 +34,12 @@ export const ContainerItems = styled.div `
     backdrop-filter: blur(6.1px);
     -webkit-backdrop-filter: blur(6.1px);
     padding-top: 20px;
+
+    @media only screen and (min-device-width: 768px) {  
+        width: 90%;
+        height: 80%;
+     }
+
 `
 
 export const Contato = styled.div`
@@ -73,6 +79,20 @@ export const Contato = styled.div`
             border: none;
         }
     }
+
+    @media only screen and (min-device-width: 768px) {  
+        flex-direction: row;
+        justify-content: space-evenly ;
+
+        img:hover {
+    margin-bottom: 20px;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    margin-top: 15px;
+}
+
+     }
 `
 
 
