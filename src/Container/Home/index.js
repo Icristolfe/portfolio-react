@@ -48,7 +48,7 @@ function HomePage() {
     <h1 class="name" >Ícaro Cristolfe</h1>
 
     <p>
-      Desenvolvedor Full Stack, apaixonado por tecnologia e um sonhador desde pequeno, través do meu conhecimento desejo ajudar pessoas ao meu redor desenvolvendo soluções práticas com o intuito de facilitar processos de maior dificuldade.<br></br>
+      Desenvolvedor Full Stack, apaixonado por tecnologia e um sonhador desde pequeno, através do meu conhecimento desejo ajudar pessoas ao meu redor desenvolvendo soluções práticas com o intuito de facilitar processos de maior dificuldade.<br></br>
       Como desenvolvedor front end tenho experiência com as seguintes tecnologias: HTML, CSS, Javascript, ReactJs,<br></br> Styled-Components, API Rest, Tailwind, entre outras ferramentas.<br></br>
       No back end tenho experiência com : Nodejs, MongoDB, Postgres,  Docker, ferramentas como Sequelize, Mongoose, Express.<br></br>
       Tenho certificação em metodologias ágeis, Scrum, Kanbam, com conhecimento em todas as cerimônias 
