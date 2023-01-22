@@ -47,7 +47,7 @@ function Contact() {
       <a href="https://www.linkedin.com/in/ícaro-cristolfe" target="_blank" rel='noreferrer' ><img src={Linkedin} alt='contato'/></a>
       <a href="https://wa.me/+5527997679661" target="_blank" rel='noreferrer'><img src={Whats} alt='contato'/></a>
       <a href="https://github.com/Icristolfe" target="_blank" rel='noreferrer'><img src={Github} alt='contato'/></a>
-      <a href="https://drive.google.com/file/d/1V-aOEIlw6_SbykQB2jZe8iDLblxTT1_h/view?usp=sharing" target="_blank"  rel='noreferrer'><img src={Download} alt='contato'/></a>
+      <a href="https://drive.google.com/file/d/1VLN-hML6nmsh29ZR5WtVgihGyz3Lwbba/view?usp=sharing" target="_blank"  rel='noreferrer'><img src={Download} alt='contato'/></a>
         
       </Contato>
       </ContainerItems>
